@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="res/images/favicon.ico">
     <link rel="stylesheet" href="res/css/style.css">
-    <title>My Dashboard</title>
+    <title>Lab 3 - CSS</title>
 </head>
+
 <body>
+
 
     <header class="header">
         <ul class="nav">
@@ -20,13 +23,14 @@
         <a class="logo" href="#"><img src="res/images/me.png" width="50" height="50" alt="My picture"></a>
     </header>
 
-    <section class="top">
+
+    <section>
         <h1>Personal Information</h1>
-        <div>
+        <div class="nav">
             <ul>
                 <li>Your name</li>
-                <li> A date following this format dd/mm/yyyy</li>
-                <li> Software Engineering </li>
+                <li> date: dd/mm/yyyy</li>
+                <li>Software Engineering </li>
             </ul>
         </div>
         <div>
@@ -48,27 +52,25 @@
             <tbody>
                 <tr>
                     <td>1</td>
-                    <td>
-                        <a href="https://courses.cs.ut.ee/2022/ASD/fall" target="_blank">Agile software development</a>
-                    </td>
+                    <td>Agile software development</td>
                     <td>fall</td>
                     <td>82</td>
                 </tr>
                 <tr>
                     <td>2</td>
-                    <td><a href="https://courses.cs.ut.ee/2022/systemsmodelling/fall" target="_blank">Systems modelling</a></td>
+                    <td> Systems modelling </td>
                     <td>fall</td>
                     <td>85</td>
                 </tr>
                 <tr>
                     <td>3</td>
-                    <td><a href="https://courses.cs.ut.ee/2022/RE/fall" target="_blank">Requirements Engineering</a></td>
+                    <td> Requirements Engineering </td>
                     <td>fall</td>
                     <td>99</td>
                 </tr>
                 <tr>
                     <td>4</td>
-                    <td><a href="https://courses.cs.ut.ee/2022/HCI/fall" target="_blank">Human Computer Interaction</a></td>
+                    <td> Human Computer Interaction </td>
                     <td>fall</td>
                     <td>65</td>
                 </tr>
@@ -84,6 +86,9 @@
         </table>
     </section>
 
+
+
+
     <div class="grid">
 
         <p>Course 1 - Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus ullam voluptates veniam, alias modi nulla nobis nisi quo reprehenderit cupiditate, veritatis tenetur voluptate corporis corrupti ipsa, accusantium minus porro quae.</p>
@@ -98,48 +103,21 @@
 
     </div>
 
-    <section>
-        <h1>Add courses</h1>
-        <label for="cname">Course name:</label><br>
-        <input type="text" id="cname"><br>
-        <label for="semester">Semester:</label><br>
-        <select id="semester">
-            <option value="fall">Fall</option>
-            <option value="spring">Spring</option>
-        </select><br>
-        <strong>Attendance</strong><br>
-        <input type="radio" id="att1" name="attendace">
-        <label for="att1">Virtual attendance</label><br>
-        <input type="radio" id="att2" name="attendace">
-        <label for="att2">Physical attendance</label><br>
-        <input type="submit">
-    </section>
 
-    <div class="static">
-        <p class="static">This is a static paragraph</p>
 
-        <p class="relative">This is a relative paragraph</p>
-    
-        <div class ="parentpositioning">
-        <p class ="absolute">This is an absolute paragraph</p>
-        </div>
-    
-        <p class ="fixed">This is a fixed paragraph</p>
-    
-        <p class ="sticky">This is a sticky paragraph</p>
-
-    </div>
 
     <footer class="footer">
         <ul>
             <li>
-                <a href="https://ois2.ut.ee/" target="_blank">OIS</a>
+                <a href="https://ois2.ut.ee/">OIS</a>
             </li>
             <li>
-                <a href="https://courses.cs.ut.ee/" target="_blank">Courses</a>
+                <a href="https://courses.cs.ut.ee/">Courses</a>
             </li>
         </ul>
     </footer>
 
+
 </body>
+
 </html>
